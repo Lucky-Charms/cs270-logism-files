@@ -59,11 +59,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(540,120)" to="(540,130)"/>
+    <wire from="(160,290)" to="(220,290)"/>
+    <wire from="(170,200)" to="(230,200)"/>
+    <wire from="(300,210)" to="(300,220)"/>
+    <wire from="(290,210)" to="(290,230)"/>
+    <wire from="(620,130)" to="(660,130)"/>
+    <wire from="(320,90)" to="(560,90)"/>
+    <wire from="(320,180)" to="(560,180)"/>
+    <wire from="(550,140)" to="(550,170)"/>
+    <wire from="(560,150)" to="(560,180)"/>
+    <wire from="(230,170)" to="(270,170)"/>
+    <wire from="(560,90)" to="(560,110)"/>
+    <wire from="(550,100)" to="(550,120)"/>
+    <wire from="(230,170)" to="(230,200)"/>
+    <wire from="(320,100)" to="(550,100)"/>
+    <wire from="(320,170)" to="(550,170)"/>
+    <wire from="(320,120)" to="(540,120)"/>
+    <wire from="(660,130)" to="(660,170)"/>
+    <wire from="(550,120)" to="(570,120)"/>
+    <wire from="(550,140)" to="(570,140)"/>
+    <wire from="(270,220)" to="(300,220)"/>
+    <wire from="(540,130)" to="(570,130)"/>
+    <wire from="(150,150)" to="(170,150)"/>
+    <wire from="(170,150)" to="(170,200)"/>
+    <wire from="(270,170)" to="(270,220)"/>
+    <wire from="(220,230)" to="(290,230)"/>
+    <wire from="(660,170)" to="(800,170)"/>
+    <wire from="(560,110)" to="(570,110)"/>
+    <wire from="(560,150)" to="(570,150)"/>
+    <wire from="(220,230)" to="(220,290)"/>
     <comp lib="6" loc="(105,101)" name="Text">
       <a name="text" val="Inputs"/>
     </comp>
-    <comp lib="0" loc="(150,150)" name="Pin">
-      <a name="width" val="4"/>
+    <comp lib="1" loc="(620,130)" name="OR Gate"/>
+    <comp lib="0" loc="(160,290)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(800,170)" name="Pin">
@@ -71,8 +101,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(150,150)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="6" loc="(792,135)" name="Text">
       <a name="text" val="Output"/>
+    </comp>
+    <comp lib="2" loc="(300,210)" name="Decoder">
+      <a name="select" val="4"/>
     </comp>
   </circuit>
 </project>
