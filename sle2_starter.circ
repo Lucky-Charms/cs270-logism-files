@@ -35,8 +35,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </options>
   <mappings>
     <tool lib="6" map="Button2" name="Menu Tool"/>
-    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
     <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
   </mappings>
   <toolbar>
     <tool lib="6" name="Poke Tool"/>
@@ -87,8 +87,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(450,450)" to="(450,520)"/>
     <wire from="(260,140)" to="(1120,140)"/>
     <wire from="(590,450)" to="(590,590)"/>
-    <wire from="(320,570)" to="(660,570)"/>
     <wire from="(160,140)" to="(220,140)"/>
+    <wire from="(320,570)" to="(660,570)"/>
     <wire from="(130,570)" to="(270,570)"/>
     <wire from="(440,180)" to="(440,400)"/>
     <wire from="(320,520)" to="(450,520)"/>
@@ -115,48 +115,44 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(570,200)" to="(680,200)"/>
     <wire from="(160,500)" to="(270,500)"/>
     <wire from="(370,340)" to="(370,400)"/>
-    <wire from="(370,340)" to="(450,340)"/>
-    <wire from="(40,40)" to="(50,40)"/>
     <wire from="(540,340)" to="(540,400)"/>
+    <wire from="(40,40)" to="(50,40)"/>
+    <wire from="(370,340)" to="(450,340)"/>
     <wire from="(260,200)" to="(570,200)"/>
     <wire from="(360,120)" to="(360,400)"/>
     <wire from="(260,340)" to="(270,340)"/>
     <wire from="(380,450)" to="(380,480)"/>
-    <wire from="(270,360)" to="(280,360)"/>
     <wire from="(520,450)" to="(520,550)"/>
+    <wire from="(270,360)" to="(280,360)"/>
     <wire from="(500,120)" to="(640,120)"/>
-    <comp lib="6" loc="(238,305)" name="Text">
-      <a name="text" val="Input"/>
-    </comp>
-    <comp lib="1" loc="(270,570)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="0" loc="(260,340)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(590,450)" name="AND Gate">
-      <a name="facing" val="south"/>
+    <comp lib="6" loc="(1142,305)" name="Text">
+      <a name="text" val="Output"/>
     </comp>
-    <comp lib="1" loc="(270,500)" name="OR Gate">
+    <comp lib="1" loc="(270,570)" name="OR Gate">
       <a name="facing" val="west"/>
     </comp>
     <comp lib="1" loc="(520,450)" name="AND Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(1100,340)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(380,450)" name="AND Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="4" loc="(260,180)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
+    <comp lib="0" loc="(40,40)" name="Clock"/>
+    <comp lib="1" loc="(270,500)" name="OR Gate">
+      <a name="facing" val="west"/>
     </comp>
     <comp lib="4" loc="(260,120)" name="D Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="6" loc="(1142,305)" name="Text">
-      <a name="text" val="Output"/>
+    <comp lib="4" loc="(260,180)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(310,360)" name="NOT Gate"/>
+    <comp lib="1" loc="(660,450)" name="AND Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(380,450)" name="AND Gate">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(1150,340)" name="Pin">
       <a name="facing" val="west"/>
@@ -164,12 +160,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(40,40)" name="Clock"/>
-    <comp lib="1" loc="(310,360)" name="NOT Gate"/>
+    <comp lib="6" loc="(238,305)" name="Text">
+      <a name="text" val="Input"/>
+    </comp>
+    <comp lib="1" loc="(1100,340)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(450,450)" name="AND Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(660,450)" name="AND Gate">
+    <comp lib="1" loc="(590,450)" name="AND Gate">
       <a name="facing" val="south"/>
     </comp>
   </circuit>
